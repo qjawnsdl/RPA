@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 data =  {'이름' : ['Kim', 'Park', 'Lee','Ho'],
-        '국어' : [90,58,55,100], 
+        '국어' : [90,58,88,100], 
         '영어' : [100,60,80,70], 
         '수학' : [55,65,76,88] }
 
@@ -36,4 +36,3 @@ a = data1.shape
 print(a)
 
 print(data1) 
-print(data2)
